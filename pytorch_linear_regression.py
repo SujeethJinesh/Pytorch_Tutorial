@@ -30,7 +30,7 @@ for epoch in range(n_iters):
   l = loss(Y, y_pred)
 
   # gradients
-  l.backward() #dl/dw - collects in w.grad()
+  l.backward() #dl/dw - collects in w.grad
 
   # update weights (update formula)
   # should not make this part of our computational graph

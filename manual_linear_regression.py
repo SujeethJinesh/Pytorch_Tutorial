@@ -1,5 +1,3 @@
-from turtle import clear
-
 import numpy as np
 
 # f = w * x 
